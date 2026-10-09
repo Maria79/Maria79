@@ -20,19 +20,19 @@ My focus is **frontend engineering with full-stack ownership** — from componen
 
 ## Selected public projects
 
-### [Property Pulse](https://github.com/Maria79/property-pulse)
+### [Gestoría Canarias — Official Bulletin Monitor](https://github.com/Maria79/boletines-oficiales)
 
-A property-listing web application built with **Next.js, MongoDB/Mongoose, NextAuth and Cloudinary**. The codebase includes routes for browsing, searching, saving and managing property listings.
+A **React and TypeScript** application for monitoring Spanish official publications (BOE, BOC, provincial bulletins, BORME) and assessing relevance to advisory-firm clients.
 
-**Why it is relevant:** full-stack web development, data-backed application flows, authentication and UI implementation.
+**Engineering focus:** Express APIs, PostgreSQL/Drizzle, contract-first OpenAPI tooling, XML/RSS ingestion, scheduled synchronization and explainable rules-based matching.
 
-### [Chiczone](https://github.com/Maria79/chiczone)
+### [Oposición Consorcio — AI-Assisted Exam Practice](https://github.com/Maria79/oposicion-consorcio)
 
-A Next.js-based storefront project using **React, Firebase and Tailwind CSS**, with product-category pages and reusable frontend components.
+A **Next.js and TypeScript** study application built around a 20-topic examination syllabus, with AI-assisted question generation, timed tests and historical performance tracking.
 
-**Why it is relevant:** frontend composition, product browsing interfaces and integration with cloud services.
+**Engineering focus:** Prisma/SQLite modeling, React application state, server actions, question deduplication, scoring and history-aware question selection.
 
-> These are public code examples, not claims of commercial deployment or measured production impact.
+> These are public engineering code samples. Their documentation and safety/readiness checks are being improved; they are not presented as independently verified production services. More substantial client applications remain private.
 
 ## Professional engineering work
 
