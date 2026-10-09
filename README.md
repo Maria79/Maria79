@@ -22,17 +22,19 @@ My focus is **frontend engineering with full-stack ownership** — from componen
 
 ### [Gestoría Canarias — Official Bulletin Monitor](https://github.com/Maria79/boletines-oficiales)
 
-A **React and TypeScript** application for tracking Spanish official publications (BOE, BOC, provincial bulletins and BORME), with workflows for reviewing entries and assessing their relevance to advisory clients.
+A **React and TypeScript** application for monitoring Spanish official publications (BOE, BOC, provincial bulletins, BORME) and evaluating relevance to advisory workflows.
 
-**Engineering focus:** Express APIs, PostgreSQL/Drizzle, contract-first OpenAPI tooling, XML/RSS ingestion, scheduled synchronization and explainable rules-based matching.
+**Engineering focus:** Express APIs, PostgreSQL/Drizzle, OpenAPI-generated contracts, XML/RSS ingestion, scheduled synchronization and explainable matching rules.
+
+**[Explore the read-only demo](https://maria79.github.io/boletines-oficiales/)** — a fictional static frontend with search, filters and sample relevance matches. The live demo does **not** run the production data-ingestion or client APIs.
 
 ### [Oposición Consorcio — Synthetic Exam Practice Demo](https://github.com/Maria79/oposicion-consorcio-demo)
 
-A **Next.js 16, React 19 and TypeScript** study-workflow demo featuring 20 topics, 400 explicitly fictional sample questions, timed quizzes, scoring and example progress history. The local demo runs without an OpenAI API key and does not store visitors' test attempts.
+A **Next.js 16, React 19 and TypeScript** application with 20 topics, 400 clearly fictional sample questions, timed quizzes, scoring and synthetic progress examples.
 
-**Engineering focus:** Prisma/SQLite data modeling, React state management, server components/actions, adaptive question selection, deterministic seeding, and automated build and HTTP smoke tests.
+**Engineering focus:** Prisma/SQLite data modeling, React state management, server actions, history-aware question selection, deterministic seeding and automated build/HTTP tests.
 
-> These repositories are engineering samples rather than verified production services. The exam demo uses fictional content and a local, isolated database. Larger client projects remain private.
+> These projects demonstrate product engineering, architecture and testing, not independently certified production services. The bulletin demo is public and static; the exam demo is reproducible locally without an OpenAI API key or real learner data. Commercial client source code remains private.
 
 ## Professional engineering work
 
