@@ -22,17 +22,17 @@ My focus is **frontend engineering with full-stack ownership** — from componen
 
 ### [Gestoría Canarias — Official Bulletin Monitor](https://github.com/Maria79/boletines-oficiales)
 
-A **React and TypeScript** application for monitoring Spanish official publications (BOE, BOC, provincial bulletins, BORME) and assessing relevance to advisory-firm clients.
+A **React and TypeScript** application for tracking Spanish official publications (BOE, BOC, provincial bulletins and BORME), with workflows for reviewing entries and assessing their relevance to advisory clients.
 
 **Engineering focus:** Express APIs, PostgreSQL/Drizzle, contract-first OpenAPI tooling, XML/RSS ingestion, scheduled synchronization and explainable rules-based matching.
 
-### [Oposición Consorcio — AI-Assisted Exam Practice](https://github.com/Maria79/oposicion-consorcio)
+### [Oposición Consorcio — Synthetic Exam Practice Demo](https://github.com/Maria79/oposicion-consorcio-demo)
 
-A **Next.js and TypeScript** study application built around a 20-topic examination syllabus, with AI-assisted question generation, timed tests and historical performance tracking.
+A **Next.js 16, React 19 and TypeScript** study-workflow demo featuring 20 topics, 400 explicitly fictional sample questions, timed quizzes, scoring and example progress history. The local demo runs without an OpenAI API key and does not store visitors' test attempts.
 
-**Engineering focus:** Prisma/SQLite modeling, React application state, server actions, question deduplication, scoring and history-aware question selection.
+**Engineering focus:** Prisma/SQLite data modeling, React state management, server components/actions, adaptive question selection, deterministic seeding, and automated build and HTTP smoke tests.
 
-> These are public engineering code samples. Their documentation and safety/readiness checks are being improved; they are not presented as independently verified production services. More substantial client applications remain private.
+> These repositories are engineering samples rather than verified production services. The exam demo uses fictional content and a local, isolated database. Larger client projects remain private.
 
 ## Professional engineering work
 
