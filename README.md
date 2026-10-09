@@ -20,19 +20,21 @@ My focus is **frontend engineering with full-stack ownership** — from componen
 
 ## Selected public projects
 
-### [Property Pulse](https://github.com/Maria79/property-pulse)
+### [Gestoría Canarias — Official Bulletin Monitor](https://github.com/Maria79/boletines-oficiales)
 
-A property-listing web application built with **Next.js, MongoDB/Mongoose, NextAuth and Cloudinary**. The codebase includes routes for browsing, searching, saving and managing property listings.
+A **React and TypeScript** application for monitoring Spanish official publications (BOE, BOC, provincial bulletins, BORME) and evaluating relevance to advisory workflows.
 
-**Why it is relevant:** full-stack web development, data-backed application flows, authentication and UI implementation.
+**Engineering focus:** Express APIs, PostgreSQL/Drizzle, OpenAPI-generated contracts, XML/RSS ingestion, scheduled synchronization and explainable matching rules.
 
-### [Chiczone](https://github.com/Maria79/chiczone)
+**[Explore the read-only demo](https://maria79.github.io/boletines-oficiales/)** — a fictional static frontend with search, filters and sample relevance matches. The live demo does **not** run the production data-ingestion or client APIs.
 
-A Next.js-based storefront project using **React, Firebase and Tailwind CSS**, with product-category pages and reusable frontend components.
+### [Oposición Consorcio — Synthetic Exam Practice Demo](https://github.com/Maria79/oposicion-consorcio-demo)
 
-**Why it is relevant:** frontend composition, product browsing interfaces and integration with cloud services.
+A **Next.js 16, React 19 and TypeScript** application with 20 topics, 400 clearly fictional sample questions, timed quizzes, scoring and synthetic progress examples.
 
-> These are public code examples, not claims of commercial deployment or measured production impact.
+**Engineering focus:** Prisma/SQLite data modeling, React state management, server actions, history-aware question selection, deterministic seeding and automated build/HTTP tests.
+
+> These projects demonstrate product engineering, architecture and testing, not independently certified production services. The bulletin demo is public and static; the exam demo is reproducible locally without an OpenAI API key or real learner data. Commercial client source code remains private.
 
 ## Professional engineering work
 
