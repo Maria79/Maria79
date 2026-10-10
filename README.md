@@ -18,23 +18,33 @@ My focus is **frontend engineering with full-stack ownership** — from componen
 | **Security** | Authentication, role-based access control (RBAC), PostgreSQL Row Level Security (RLS), multi-tenant access patterns |
 | **Quality & delivery** | Vitest, React Testing Library, Playwright, GitHub Actions, CI/CD, Git, Vercel |
 
-## Selected public projects
+## Selected engineering projects
+
+### [C&B Gestión Laguna — Advisory Operations Platform](projects/cyb-gestion-laguna.md)
+
+**Commercial client project · Private codebase · Controlled-pilot preparation**
+
+A business operations platform for a tax and accounting advisory firm, connecting **three product experiences**: a public site, an authenticated multi-company client portal, and an internal staff workspace for requests, documents, responsibilities and deadlines.
+
+**My contribution:** frontend-focused development with full-stack ownership across React/TypeScript product architecture, Supabase/PostgreSQL workflows, tenant-aware access, Row Level Security, role/capability permissions and verification.
+
+**[Read the engineering case study](projects/cyb-gestion-laguna.md)** — business problem, architecture, technical trade-offs and current scope. Client records and implementation source stay private; this is **not** described as a completed production rollout.
 
 ### [Gestoría Canarias — Official Bulletin Monitor](https://github.com/Maria79/boletines-oficiales)
 
-A **React and TypeScript** application for monitoring Spanish official publications (BOE, BOC, provincial bulletins, BORME) and evaluating relevance to advisory workflows.
+A **React and TypeScript** application for tracking Spanish official publications and exploring their relevance to advisory workflows.
 
-**Engineering focus:** Express APIs, PostgreSQL/Drizzle, OpenAPI-generated contracts, XML/RSS ingestion, scheduled synchronization and explainable matching rules.
+**Engineering focus:** Express APIs, PostgreSQL/Drizzle, OpenAPI contracts, XML/RSS ingestion and explainable matching rules.
 
-**[Explore the read-only demo](https://maria79.github.io/boletines-oficiales/)** — a fictional static frontend with search, filters and sample relevance matches. The live demo does **not** run the production data-ingestion or client APIs.
+**[Explore the fictional read-only demo](https://maria79.github.io/boletines-oficiales/)** — a static React interface; it does **not** run the operational backend or process real client data.
 
 ### [Oposición Consorcio — Synthetic Exam Practice Demo](https://github.com/Maria79/oposicion-consorcio-demo)
 
-A **Next.js 16, React 19 and TypeScript** application with 20 topics, 400 clearly fictional sample questions, timed quizzes, scoring and synthetic progress examples.
+A **Next.js 16, React 19 and TypeScript** application with 20 topics, 400 explicitly fictional questions, timed tests and example performance histories.
 
-**Engineering focus:** Prisma/SQLite data modeling, React state management, server actions, history-aware question selection, deterministic seeding and automated build/HTTP tests.
+**Engineering focus:** Prisma/SQLite modeling, React state, server actions, deterministic seeding, scoring and automated tests. The demo runs locally without an OpenAI API key or personal study data.
 
-> These projects demonstrate product engineering, architecture and testing, not independently certified production services. The bulletin demo is public and static; the exam demo is reproducible locally without an OpenAI API key or real learner data. Commercial client source code remains private.
+> The public repositories demonstrate engineering approach and testing; C&B is a real client engagement documented through an authorized case study. None is presented as an independently certified production service.
 
 ## Professional engineering work
 
